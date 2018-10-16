@@ -1,0 +1,23 @@
+#left-eye, #right-eye {
+  transform: translateX(0);
+  animation: eye-roll 3s linear infinite;
+}
+
+@keyframes eye-roll {
+  0% {
+    transform: translateX(0px);
+  }
+
+  30% {
+    transform: translateX(-10px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
