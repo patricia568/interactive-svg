@@ -4,8 +4,9 @@
 }
 
 @keyframes eye-roll {
+
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   30% {
