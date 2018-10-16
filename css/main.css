@@ -21,3 +21,16 @@
   }
 
 }
+
+#right-ear, #left-ear {
+  transform: translateY(0);
+  transition: all .5s linear;
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-13px);
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-13px);
+}
